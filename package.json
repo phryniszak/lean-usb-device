@@ -1,12 +1,12 @@
 {
-  "name": "web-serial-polyfill",
-  "version": "1.0.15",
-  "description": "An implementation of the [Serial API](https://wicg.github.io/serial) on top of the [WebUSB API](https://wicg.github.io/webusb) for use with USB-to-serial adapters. Use of this library is limited to hardware and platforms where the device is accessible via the WebUSB API because it has not been claimed by a built-in device driver. This project will be used to prototype the design of the Serial API.",
+  "name": "lean-usb-device",
+  "version": "0.0.1",
+  "description": "Lean web usb device with streaming read and write",
   "type": "module",
-  "main": "./dist/serial.js",
-  "types": "./dist/serial.d.ts",
+  "main": "./dist/lean-sub-device.js",
+  "types": "./dist/lean-sub-device.d.ts",
   "scripts": {
-    "lint": "eslint serial.ts",
+    "lint": "eslint lean-sub-device.ts",
     "build": "tsc -d",
     "prepublish": "tsc -d"
   },
@@ -14,10 +14,9 @@
     "type": "git",
     "url": "https://github.com/google/web-serial-polyfill.git"
   },
-  "author": "James C Hollyer",
+  "author": "James C Hollyer & Pawel Hryniszak",
   "license": "Apache",
   "devDependencies": {
-    "@types/w3c-web-serial": "^1.0.3",
     "@types/w3c-web-usb": "^1.0.6",
     "@types/web": "^0.0.71",
     "@typescript-eslint/eslint-plugin": "^5.33.0",

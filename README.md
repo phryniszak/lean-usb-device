@@ -1,18 +1,14 @@
-# Serial API Polyfill
+# Lean WebUSB device
 
-An implementation of the [Web Serial API](https://wicg.github.io/serial) on top
-of the [WebUSB API](https://wicg.github.io/webusb) for use with USB-to-serial
-adapters. Use of this library is limited to hardware and platforms where the
-device is accessible via the WebUSB API because it has not been claimed by a
-built-in device driver. This project was used to prototype the design of
-the Web Serial API and remains useful for platforms (such as Android) which
-support the WebUSB API but do not support the Web Serial API.
+Based on the [Web Serial Polyfill](https://github.com/google/web-serial-polyfill), this implementation removes the control interface and unnecessary options while still allowing the underlying USB device to be used for streaming data for reading and writing.
 
-This is also available as an npm package
-[here](https://www.npmjs.com/package/web-serial-polyfill) for convenience.
+# Chrome info and settings
 
-A demo of this library is provided as part of the
-[serial terminal demo](https://github.com/GoogleChromeLabs/serial-terminal)
-and can be activated by clicking the
-"[Switch to API polyfill](https://googlechromelabs.github.io/serial-terminal/?polyfill)"
-link.
+chrome://device-log/ 
+chrome://usb-internals/
+chrome://settings/content/usbDevices/
+chrome://prefs-internals/    then search the output for usb_chooser_data
+
+# Webserial
+
+https://wicg.github.io/serial/
