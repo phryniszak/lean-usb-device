@@ -4,11 +4,14 @@ Based on the [Web Serial Polyfill](https://github.com/google/web-serial-polyfill
 
 # Chrome info and settings
 
-chrome://device-log/ 
-chrome://usb-internals/
-chrome://settings/content/usbDevices/
-chrome://prefs-internals/    then search the output for usb_chooser_data
+[chrome://device-log/](chrome://device-log/)
+
+[chrome://usb-internals/](chrome://usb-internals/)
+
+[chrome://settings/content/usbDevices/](chrome://settings/content/usbDevices/)
+
+[chrome://prefs-internals/](chrome://prefs-internals/) then search the output for usb_chooser_data
 
 # Webserial
 
-https://wicg.github.io/serial/
+[https://wicg.github.io/serial/](https://wicg.github.io/serial/)
